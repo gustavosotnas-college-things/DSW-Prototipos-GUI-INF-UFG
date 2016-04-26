@@ -1,14 +1,5 @@
-<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+# ![AlunosCoadunos](https://cdn.rawgit.com/gustavosotnas/DSW-Prototipo-GUI-INF-UFG/master/assets/icon/alunos-coadunos_logo.svg)
 
-<style>
-	h1 {
-		font-family: 'Raleway', sans-serif;
-		color: #FFA000;
-		text-align: center;
-	}
-</style>
-
-# ![AlunosCoadunos_icon](assets/icon/Student-icon.png) <big style="font-weight:100;">Alunos Coadunos</big>
 Protótipo funcional para um fictício sistema Web de Cadastro de Alunos apresentado como trabalho da disciplina de Desenvolvimento de software para a Web no 7º período do semestre 2016/1 do curso de Engenharia de Software da Universidade Federal de Goiás.
 
 #### Facilitador
