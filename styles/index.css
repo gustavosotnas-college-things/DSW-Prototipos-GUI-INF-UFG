@@ -60,13 +60,30 @@ h1 {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+  position: relative;
 }
 
 /* Padding for spacing */
-.inner {
-  padding: 30px;
+.foreground, .inner {
+  padding: 0px;
 }
 
+.inner {
+  z-index: 999;
+}
+
+/* Faz overlay */
+.foreground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.5);
+  -webkit-filter: blur(25px); /* Chrome, Opera, etc. */
+  filter: blur(25px); /* Firefox 35+, eventually all */
+  z-index: 0;
+}
 
 /*
  * Header
