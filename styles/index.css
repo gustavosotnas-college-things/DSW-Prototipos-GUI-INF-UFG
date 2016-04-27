@@ -6,6 +6,12 @@ http://getbootstrap.com/examples/cover
  * Globals
  */
 
+@font-face {
+  font-family: "Roboto Light";
+  font-weight: 300; /* Roboto Light */
+  src: url('../assets/font/Roboto-Light.ttf');
+}
+
 /* Links */
 a,
 a:focus,
@@ -30,6 +36,7 @@ a:hover {
 
 html,
 body {
+  font-family: "Roboto Light";
   height: 100%;
   background-color: #C36D22;
 }
