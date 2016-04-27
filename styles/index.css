@@ -80,9 +80,9 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,.5);
-  -webkit-filter: blur(20px); /* Chrome, Opera, etc. */
-  filter: blur(20px); /* Firefox 35+, eventually all */
+  background-color: rgba(0,0,0,.3);
+  -webkit-filter: blur(25px); /* Chrome, Opera, etc. */
+  filter: blur(25px); /* Firefox 35+, eventually all */
   z-index: 1;
 }
 
@@ -150,8 +150,7 @@ h1 {
  */
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.7);
+  color: #fff;
 }
 
 
