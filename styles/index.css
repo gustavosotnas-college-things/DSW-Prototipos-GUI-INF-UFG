@@ -69,7 +69,8 @@ h1 {
 }
 
 .inner {
-  z-index: 999;
+  position: relative;
+  z-index: 2;
 }
 
 /* Faz overlay */
@@ -80,9 +81,9 @@ h1 {
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,.5);
-  -webkit-filter: blur(25px); /* Chrome, Opera, etc. */
-  filter: blur(25px); /* Firefox 35+, eventually all */
-  z-index: 0;
+  -webkit-filter: blur(20px); /* Chrome, Opera, etc. */
+  filter: blur(20px); /* Firefox 35+, eventually all */
+  z-index: 1;
 }
 
 /*
