@@ -1,6 +1,9 @@
 .navbar-inverse, .btn-default {
 	background-color: #4CAF50;
 }
+body {
+	background-color: #FAFAFA;
+}
 p {
 	font-size: 12pt;
 }
