@@ -1,0 +1,22 @@
+/**
+ * CSS para o index.html, do DSW-Prototipos-GUI-INF-UFG
+ */
+
+@font-face {
+  font-family: "Roboto Light";
+  font-weight: 300; /* Roboto Light */
+  src: url('../assets/font/Roboto-Light.ttf');
+}
+
+body {
+  font-family: "Roboto Light";
+}
+h1 {
+  text-shadow: 0 2px 4px rgba(0,0,0,.37);
+}
+
+@media (max-width:650px) { /*650px = width - alunos-coadunos_logo.svg*/
+	img {
+		width: 100%;
+	}
+}
