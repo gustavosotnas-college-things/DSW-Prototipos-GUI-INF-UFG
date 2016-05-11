@@ -9,7 +9,7 @@ http://getbootstrap.com/examples/cover
 @font-face {
   font-family: "Roboto Light";
   font-weight: 300; /* Roboto Light */
-  src: url('../assets/font/Roboto-Light.ttf');
+  src: url('../../assets/font/Roboto-Light.ttf');
 }
 
 /* Links */
