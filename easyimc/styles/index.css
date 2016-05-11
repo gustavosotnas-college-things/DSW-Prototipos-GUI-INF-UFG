@@ -1,8 +1,23 @@
+@font-face {
+	font-family: "Roboto Light";
+	font-weight: 300; /* Roboto Light */
+	src: url('../../assets/font/Roboto-Light.ttf');
+}
+@font-face {
+	font-family: "Roboto Regular";
+	/*font-weight: 300; /* Roboto Light */
+	src: url('../../assets/font/Roboto-Regular.ttf');
+}
+
 .navbar-inverse, .btn-default {
 	background-color: #4CAF50;
 }
 body {
+	font-family: "Roboto Regular";
 	background-color: #FAFAFA;
+}
+h1, h2 {
+	font-family: "Roboto Light";
 }
 p {
 	font-size: 12pt;
