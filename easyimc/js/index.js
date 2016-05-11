@@ -4,7 +4,7 @@ function calculaIMC()
 	var altura = document.formularioIMC.altura.value;
 
 	var alturaAoQuadrado = (altura * altura);
-	var IMC = (alturaAoQuadrado / peso);
+	var IMC = (peso / alturaAoQuadrado);
 
 	if (IMC < 18.5)
 	{
@@ -20,7 +20,7 @@ function calculaIMC()
 	}
 	else if (IMC >= 30 && IMC < 39.9)
 	{
-		alert("Obesidade, muito acima do peso ideal.\mÍndice: " + IMC);
+		alert("Obesidade, muito acima do peso ideal.\nÍndice: " + IMC);
 	}
 	else if (IMC > 40)
 		alert("Obesidade mórbida.\nÍndice: " + IMC);
