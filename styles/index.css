@@ -15,7 +15,9 @@ body {
 h1 {
   text-shadow: 0 2px 4px rgba(0,0,0,.37);
 }
-
+p {
+	width: 80%;
+}
 @media (max-width:650px) { /*650px = width - alunos-coadunos_logo.svg*/
 	img {
 		width: 100%;
