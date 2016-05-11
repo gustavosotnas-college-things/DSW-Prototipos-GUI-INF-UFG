@@ -16,17 +16,35 @@
 		<title>EasyIMC</title>
 	</head>
 	<body>
-		<!-- Navbar -->
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="pull-left" href="#">
-						<center>
-						<img src="../assets/icon/easyimc_logo_header.svg" alt="" height="64px">
-						</center>
-					</a>
+		<div class="container">
+			<!-- Navbar -->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="pull-left" href="#">
+							<center>
+							<img src="../assets/icon/easyimc_logo_header.svg" alt="" height="64px">
+							</center>
+						</a>
+					</div>
 				</div>
-			</div>
-		</nav>
+			</nav>
+		<!-- Conteúdo -->
+			<hr style="height: 64px"> <!-- Para a navbar não ficar acima do texto -->
+			<h2>Calcule o seu IMC</h2>
+			<p>Calcule seu índice de massa corporal e saiba se você está com 
+			sobrepeso, obesidade, subnutrição ou se está no peso ideal.</p>
+			<form role="form">
+				<div class="form-group">
+					<label for="peso">Seu peso:</label>
+					<input type="number" class="form-control" id="peso" placeholder="Peso em quilogramas (kg)">
+				</div>
+				<div class="form-group">
+					<label for="altura">Sua altura:</label>
+					<input type="number" class="form-control" id="altura" placeholder="Altura em centímetros (cm)">
+				</div>
+				<button type="submit" class="btn btn-default">Calcular</button>
+			</form>
+		</div>
 	</body>
 </html>

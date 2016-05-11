@@ -1,3 +1,12 @@
-.navbar-inverse {
+.navbar-inverse, .btn-default {
 	background-color: #4CAF50;
+}
+p {
+	font-size: 12pt;
+}
+.btn-default, .btn-default:hover {
+	color: white;
+}
+.btn-default:hover {
+	background-color: #81C784;
 }
