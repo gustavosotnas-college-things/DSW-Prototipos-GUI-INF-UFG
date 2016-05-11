@@ -22,7 +22,7 @@ Foi feito a partir [deste protótipo de interface gráfica](assets/proto/cadastr
 
 *EasyIMC* (IMC fácil), como o próprio nome já diz, é um projeto de um site de consulta de IMC (*Índice de Massa Corpórea*) de um pessoa, de forma simples, rápida e fácil. Nele, preenche-se um pequeno formulário com *Peso* (em *kg*), *Altura* (em *cm*), *Idade* e *sexo*.
 
-Foi feito a partir [deste protótipo de interface gráfica](assets/proto/cadastro-de-aluno.pdf) proposto pelo professor, usando o framework [**Bootstrap**](http://getbootstrap.com).
+Foi feito a partir [deste protótipo de interface gráfica](assets/proto/imc.pdf) proposto pelo professor, usando o framework [**Bootstrap**](http://getbootstrap.com).
 
 Autor
 -----
